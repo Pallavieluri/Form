@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        background-color: rgb(190, 137, 200);
+        margin-left: 400px;
+        margin-right: 400px;
+        padding: 30px;
+    }
+</style>
+<body>
+    <center>
+    <form>
+          <h2>Registration Form</h2>
+          <label for="name">First Name</label><br><br>
+          <input type="text" name="name" id="Firstname" required><br><br>
+          <label for="name">Last Name</label><br><br>
+          <input type="text" name="name" id="lastname" required><br><br>
+
+          <label for="email">Email Id</label><br><br>
+          <input type="email" name="email" id="email" required><br><br>
+          
+          <label for="ph.no">Phone Number</label><br><br>
+          <input type="tel" name="ph.no" id="ph.no" required><br><br>
+          <label for="gender">Gender</label><br><br>
+          <input type="radio" name="male">Male
+          <input type="radio" name="female">Female
+          <input type="radio" name="other">Other<br><br>
+          <label for="lang">Lanuage</label><br><br>
+          
+            <input type="radio" name="telugu">Telugu
+            <input type="radio" name="English">English
+            <input type="radio" name="Tamil">Tamil
+            <input type="radio" name="other">Other
+            
+          <br><br>
+          <label for="course">Course</label><br><br>
+          <select>  
+            <option value="select">--Select--</option>  
+            <option value="cse">CSE</option>  
+            <option value="aiml">AIML</option>  
+            <option value="ece">ECE</option>  
+            <option value="it">IT</option>  
+            <option value="civil">CIVIL</option>  
+            <option value="Mech">MECH</option>  
+            </select><br><br>
+            <label for="about">About</label><br><br>
+          <textarea id="about" rows="5" cols="30"></textarea><br><br>
+         
+          <label for="zipcode">Zip code</label><br><br>
+          <input type="text" name="zipcode" id="zipcode" required><br><br>
+          <label for="about">Address</label><br><br>
+          <textarea id="about" rows="5" cols="30"></textarea><br><br>
+          <button>Submit</button>
+    </form>
+    </center>
+</body>
+</html>
